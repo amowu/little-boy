@@ -1,0 +1,14 @@
+
+{
+  "name": "little-boy",
+  "description": "A chat bot named Little Boy services on Slack, Messenger and LINE platforms.",
+  "memory": 128,
+  "timeout": 3,
+  "environment": {},
+  "role": "arn:aws:iam::647768359793:role/lambda_function_role",
+  "handler": "build.default",
+  "hooks": {
+    "build": "../../node_modules/.bin/webpack --config ../../webpack/webpack.config.js",
+    "clean": "rm -fr build"
+  }
+}

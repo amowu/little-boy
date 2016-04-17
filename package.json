@@ -1,0 +1,22 @@
+{
+  "name": "little-boy",
+  "version": "0.1.0",
+  "description": "A chat bot named Little Boy services on Slack, Messenger and LINE platforms.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kidark/little-boy"
+  },
+  "dependencies": {
+    "axios": "^0.9.1",
+    "babel-polyfill": "^6.6.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.3",
+    "babel-plugin-syntax-async-functions": "^6.5.0",
+    "babel-plugin-transform-regenerator": "^6.6.0",
+    "babel-preset-es2015": "^6.5.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.12.14"
+  }
+}
