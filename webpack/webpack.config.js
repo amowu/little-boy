@@ -26,13 +26,5 @@ module.exports = {
       },
       minimize: true
     })
-  ],
-  externals: [{
-    'aws-sdk': {
-      root: 'AWS',
-      commonjs: 'aws-sdk',
-      commonjs2: 'aws-sdk',
-      amd: 'aws-sdk'
-    }
-  }]
+  ]
 };
