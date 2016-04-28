@@ -1,6 +1,7 @@
 /** @module functions/main */
 
 import 'babel-polyfill'
+import { Wit } from 'node-wit'
 import { fetchBusEstimateTime } from '../../lib/bus'
 
 // TODO: Wit.ai 的 merge 用 function，待 refactor

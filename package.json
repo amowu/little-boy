@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "axios": "^0.9.1",
-    "babel-polyfill": "^6.6.1"
+    "babel-polyfill": "^6.6.1",
+    "node-wit": "wit-ai/node-wit#d4e748e10f5adb8c495e5104a08e226991187a8a"
   },
   "devDependencies": {
     "babel-eslint": "^6.0.3",
